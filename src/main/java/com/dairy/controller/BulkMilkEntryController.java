@@ -71,7 +71,9 @@ public class BulkMilkEntryController {
 	public List<VehicleEntry> getAllVehicleEntry() {
 		return bulkMilkEntryService.getAllVehicleEntry();
 	}
-
+     
+	// Hello Yuga
+	
 	// Delete VEhicle Entry Data
 	@PostMapping("/deleteVehicleEntryById")
 	public ResponseEntity<String> deleteVehicleEntryById(@RequestBody VehicleEntry vehicleEntry) {
